@@ -361,9 +361,6 @@ Luas Permukaan: 296.88
 ### Q: Bagaimana cara backup history?
 **A:** Cukup copy file `history.txt` ke lokasi aman.
 
-### Q: Bisakah menambah bangun ruang sendiri?
-**A:** Ya! Lihat section [Pengembangan](#-pengembangan) untuk panduan.
-
 ### Q: Apakah support bilangan kompleks?
 **A:** Saat ini hanya support bilangan real positif.
 
