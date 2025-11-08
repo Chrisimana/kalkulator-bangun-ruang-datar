@@ -24,7 +24,6 @@
 - [Struktur Project](#-struktur-project)
 - [Bangun Ruang & Datar](#-bangun-ruang--datar)
 - [Contoh Penggunaan](#-contoh-penggunaan)
-- [Troubleshooting](#-troubleshooting)
 - [FAQ](#-faq)
 
 ## 🚀 Gambaran Umum
