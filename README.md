@@ -9,9 +9,6 @@
 
 **Kalkulator geometri lengkap dengan GUI modern - TANPA LIBRARY EXTERNAL!**
 
-[Fitur](#-fitur) • [Instalasi](#-instalasi) • [Penggunaan](#-penggunaan) • [Dokumentasi](#-dokumentasi)
-
-
 </div>
 
 ## 📋 Daftar Isi
@@ -180,39 +177,6 @@ Jari-jari: 5.0
 - **Tombol Hapus** di panel History untuk clear data
 
 ## 📚 Dokumentasi
-
-### Architecture Overview
-
-```
-Kalkulator Bangun Ruang & Datar
-├── Presentation Layer (GUI)
-│   ├── MainFrame - Window utama dengan CardLayout
-│   ├── CalculatorPanel - Panel input dan hasil
-│   └── HistoryPanel - Panel history
-├── Business Logic Layer (Model)
-│   ├── BangunRuang (Abstract) - Base class bangun ruang
-│   ├── BangunDatar (Abstract) - Base class bangun datar
-│   ├── 5 Concrete BangunRuang classes
-│   └── 4 Concrete BangunDatar classes
-├── Data Access Layer (Database)
-│   └── HistoryManager - Text file management
-└── Main Class - Application entry point
-```
-
-### Workflow
-
-```mermaid
-graph TD
-    A[User Pilih Kategori] --> B[User Pilih Bangun]
-    B --> C[Render Input Form]
-    C --> D[User Input Data]
-    D --> E{Validasi Input}
-    E -->|Valid| F[Hitung Volume/Luas]
-    E -->|Invalid| G[Tampilkan Error]
-    F --> H[Simpan ke History]
-    H --> I[Tampilkan Hasil]
-    I --> J[Update UI]
-```
 
 ## 🗂️ Struktur Project
 
